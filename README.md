@@ -1,0 +1,2 @@
+# fncosmosdbtrigger
+fncosmosdbtrigger
