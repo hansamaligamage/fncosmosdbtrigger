@@ -60,7 +60,8 @@ public void SendNotifications (string mobile, string msg)
    var request = new RestRequest(Method.POST);
    request.AddHeader("Content-Type", "application/json");
 
-   var param = new Notification { user_id = userId, api_key = APIKey, sender_id = senderId, to = to, message = message };
+   var param = new Notification { user_id = userId, api_key = APIKey, sender_id = senderId, to = to,
+      message = message };
    request.AddJsonBody(param);
 
    IRestResponse response = client.Execute(request);
