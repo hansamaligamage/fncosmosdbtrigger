@@ -6,8 +6,8 @@ This is a Cosmos DB trigger function written in C# - .NET Core 3.1. It waits unt
 
 ## Technology stack  
 * .NET Core 3.1 on Visual Studio 2019
-* Azure functions v3 and Azure Cosmos DB SQL API
-* The sample code has used Notify.lk sms API to send messages, https://www.notify.lk/
+* Azure functions v3 (Microsoft.NET.SDK.Functions - 3.0.3) and Azure Cosmos DB SQL API
+* The sample code has used Notify.lk sms API to send messages, https://www.notify.lk/ and to send REST requests used RestSharp, https://restsharp.dev/
 
 ## How to run the solution
  * You have to create a Cosmos DB account with SQL API then go to the Keys section, get the connectionstring to connect to the database
