@@ -40,9 +40,9 @@ namespace cosmosdbtrigger
         {
 
             string smsurl = "https://app.notify.lk/api/v1/send";
-            string userId = "12105";
-            string APIKey = "D9ApoNCnlWTPbO46sJVd";
-            string senderId = "NotifyDEMO";
+            string userId = "";
+            string APIKey = "";
+            string senderId = "";
 
             string to = mobile;
             string message = msg;
